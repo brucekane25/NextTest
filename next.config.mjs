@@ -1,16 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output : 'export',
-    images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "upload.wikimedia.org",
-        port: "",
-        pathname: "/**",
-      },
-    ],
-  },
+    output: 'export',
+  //   images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "upload.wikimedia.org",
+  //       port: "",
+  //       pathname: "/**",
+  //     },
+  //   ],
+  // },
 };
 
 export default nextConfig;
